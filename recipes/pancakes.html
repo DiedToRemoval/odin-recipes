@@ -6,43 +6,63 @@
     <title>Pancakes</title>
 
     <style>
-        /* rounding corners */
+
+        :root
+        {
+            --margVal: 15%;
+        }
+
         img 
         {
+            /* rounding corners */
             border-radius: 25%;
+
+            /* centering */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div.main
+        {
+            margin-left: var(--margVal);
+            margin-right: var(--margVal);
+
+            background-color:#ffffcc;
         }
     </style>
 
 </head>
 <body>
+    <div class="main">
+        <img src="../other/img/prettypancakes.jpg" width="400" alt="Three pancakes on a red plate">
+    
+        <!-- description -->
+        <p>This is a recipce for simple plain pancakes. Makes about 4-6 pancakes.</p>
 
-    <img src="../other/img/prettypancakes.jpg" width="400" alt="Three pancakes on a red plate">
+        <h1>Pancakes</h1>
 
-    <!-- description -->
-    <p>This is a recipce for simple plain pancakes. Makes about 4-6 pancakes.</p>
+        <h3>Ingredients</h3>
+        <ul>
+            <li>1 & 1/2 cups of all purpose flour.</li>
+            <li>3 & 1/2 teaspoons of baking powder.</li>
+            <li>1 teaspoon of salt.</li>
+            <li>1 tablsespoon of white sugar.</li>
+            <li>1 & 1/4 cups of milk.</li>
+            <li>1 egg.</li>
+            <li>3 tablespoons of melted butter.</li>
+        </ul>
 
-    <h1>Pancakes</h1>
+        <h3>Steps</h3>
+        <ol>
+            <li>In a large bowl mix the flour, baking powder, salt and sugar.</li>
+            <li>Make a small well in the bowl with the dry ingredients then pour in the milk, egg, and melted butter. Mix until smooth.</li>
+            <li>Take a clean food safere-sealable bag and stretch it over a glass. Pour the batter into the bag, gently press the remaining air out of the bag and zip it shut. This will act as a piping bag.</li>
+            <li>Put a frying pan on the stove over medium heat. When ready, melt an even light coat of butter on the pan. Snip off one of the bottom corners of the bag and pipe about 1/4 of a cup into the pan for each pancake. Leave the pancake on the pan until brown then flip. Remove from the pan once both sides are brown.</li>
+            <li>Enjoy your pancakes :]</li>
+        </ol>
 
-    <p>Ingredients</p>
-    <ul>
-        <li>1 & 1/2 cups of all purpose flour.</li>
-        <li>3 & 1/2 teaspoons of baking powder.</li>
-        <li>1 teaspoon of salt.</li>
-        <li>1 tablsespoon of white sugar.</li>
-        <li>1 & 1/4 cups of milk.</li>
-        <li>1 egg.</li>
-        <li>3 tablespoons of melted butter.</li>
-    </ul>
-
-    <p>Steps</p>
-    <ol>
-        <li>In a large bowl mix the flour, baking powder, salt and sugar.</li>
-        <li>Make a small well in the bowl with the dry ingredients then pour in the milk, egg, and melted butter. Mix until smooth.</li>
-        <li>Take a clean food safere-sealable bag and stretch it over a glass. Pour the batter into the bag, gently press the remaining air out of the bag and zip it shut. This will act as a piping bag.</li>
-        <li>Put a frying pan on the stove over medium heat. When ready, melt an even light coat of butter on the pan. Snip off one of the bottom corners of the bag and pipe about 1/4 of a cup into the pan for each pancake. Leave the pancake on the pan until brown then flip. Remove from the pan once both sides are brown.</li>
-        <li>Enjoy your pancakes :]</li>
-    </ol>
-
-    <a href="../index.html">back to main page</a>
+        <a href="../index.html">back to main page</a>
+    </div>
 </body>
 </html>
